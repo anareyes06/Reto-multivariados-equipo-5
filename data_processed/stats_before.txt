@@ -1,0 +1,160 @@
+================================================================================
+STATS: BEFORE
+================================================================================
+Total registros: 6,397,171
+Rango fechas: 2023-01-01 00:00:00  a  2025-06-30 23:00:00
+
+Resumen por parámetro:
+              count  unique                  top      freq
+parametro                                                 
+CO         372584.0  1809.0                 0.65    2486.0
+F            131741    8784  2024-12-31 07:00:00        15
+NO         373974.0  2076.0                  2.6    8132.0
+NO2        377474.0  1037.0                  6.7    2407.0
+NOX        379191.0  2508.0                  9.8    1735.0
+O3         384136.0   922.0                 16.0    9047.0
+PM10       389741.0  6443.0                 43.0    6051.0
+PM2.5      280271.0  6912.0                 10.0    7408.0
+PRS        392431.0   685.0                728.0    3165.0
+RAINF      395097.0   274.0                  0.0  388574.0
+RH         360688.0   115.0                 77.0    6427.0
+SO2        375004.0   740.0                  2.6   12715.0
+SR         385711.0  1333.0                  0.0  159328.0
+TOUT       380896.0  4533.0                 25.2     422.0
+WDR        286700.0   364.0                100.0    1660.0
+WDV        107865.0   360.0                106.0     948.0
+WSR        392986.0   668.0                  5.8    3559.0
+
+Faltantes por parámetro:
+  - CO: 32166 faltantes (7.9%)
+  - F: 0 faltantes (0.0%)
+  - NO: 30776 faltantes (7.6%)
+  - NO2: 27276 faltantes (6.7%)
+  - NOX: 25559 faltantes (6.3%)
+  - O3: 20614 faltantes (5.1%)
+  - PM10: 15009 faltantes (3.7%)
+  - PM2.5: 124479 faltantes (30.8%)
+  - PRS: 12319 faltantes (3.0%)
+  - RAINF: 9653 faltantes (2.4%)
+  - RH: 44062 faltantes (10.9%)
+  - SO2: 29746 faltantes (7.3%)
+  - SR: 19039 faltantes (4.7%)
+  - TOUT: 23854 faltantes (5.9%)
+  - WDR: 90310 faltantes (24.0%)
+  - WDV: 114055 faltantes (51.4%)
+  - WSR: 11764 faltantes (2.9%)
+
+Faltantes por estación:
+  - CENTRO: 28768 faltantes (6.7%)
+  - NORESTE3: 164449 faltantes (12.8%)
+  - NOROESTE3: 188352 faltantes (14.8%)
+  - NORTE2: 72896 faltantes (8.5%)
+  - SUR: 116723 faltantes (6.8%)
+  - SUROESTE2: 59493 faltantes (7.0%)
+
+Conteos por (estacion, parametro):
+  - ('SUR', 'WDR'): 135722
+  - ('SUR', 'SR'): 107982
+  - ('SUR', 'PRS'): 107982
+  - ('SUR', 'WSR'): 107982
+  - ('SUR', 'CO'): 107982
+  - ('SUR', 'SO2'): 107982
+  - ('SUR', 'TOUT'): 107982
+  - ('SUR', 'NO'): 107982
+  - ('SUR', 'RAINF'): 107982
+  - ('SUR', 'NO2'): 107982
+  - ('SUR', 'PM10'): 107982
+  - ('SUR', 'PM2.5'): 107982
+  - ('SUR', 'NOX'): 107982
+  - ('SUR', 'O3'): 107982
+  - ('SUR', 'RH'): 107982
+  - ('NOROESTE3', 'NOX'): 80965
+  - ('NOROESTE3', 'RAINF'): 80965
+  - ('NOROESTE3', 'PRS'): 80965
+  - ('NOROESTE3', 'O3'): 80965
+  - ('NOROESTE3', 'PM10'): 80965
+  - ('NOROESTE3', 'TOUT'): 80965
+  - ('NOROESTE3', 'SR'): 80965
+  - ('NOROESTE3', 'PM2.5'): 80965
+  - ('NOROESTE3', 'RH'): 80965
+  - ('NOROESTE3', 'NO'): 80965
+  - ('NOROESTE3', 'CO'): 80965
+  - ('NOROESTE3', 'NO2'): 80965
+  - ('NOROESTE3', 'WSR'): 80965
+  - ('NOROESTE3', 'SO2'): 80965
+  - ('NORESTE3', 'RH'): 80963
+  - ('NORESTE3', 'WSR'): 80963
+  - ('NORESTE3', 'PM2.5'): 80963
+  - ('NORESTE3', 'PM10'): 80963
+  - ('NORESTE3', 'RAINF'): 80963
+  - ('NORESTE3', 'O3'): 80963
+  - ('NORESTE3', 'NO'): 80963
+  - ('NORESTE3', 'NO2'): 80963
+  - ('NORESTE3', 'TOUT'): 80963
+  - ('NORESTE3', 'CO'): 80963
+  - ('NORESTE3', 'NOX'): 80963
+  - ('NORESTE3', 'SR'): 80963
+  - ('NORESTE3', 'PRS'): 80963
+  - ('NORESTE3', 'SO2'): 80963
+  - ('NORESTE3', 'WDR'): 67093
+  - ('NOROESTE3', 'WDV'): 55480
+  - ('NORESTE3', 'WDV'): 55480
+  - ('NORTE2', 'PM10'): 53991
+  - ('NORTE2', 'RAINF'): 53991
+  - ('NORTE2', 'PRS'): 53991
+  - ('NORTE2', 'SO2'): 53991
+  - ('NORTE2', 'RH'): 53991
+  - ('NORTE2', 'NO'): 53991
+  - ('NORTE2', 'NO2'): 53991
+  - ('NORTE2', 'CO'): 53991
+  - ('NORTE2', 'NOX'): 53991
+  - ('NORTE2', 'O3'): 53991
+  - ('NORTE2', 'WSR'): 53991
+  - ('NORTE2', 'PM2.5'): 53991
+  - ('NORTE2', 'SR'): 53991
+  - ('NORTE2', 'TOUT'): 53991
+  - ('NORTE2', 'WDR'): 53991
+  - ('SUROESTE2', 'SO2'): 53851
+  - ('SUROESTE2', 'WSR'): 53851
+  - ('SUROESTE2', 'RH'): 53851
+  - ('SUROESTE2', 'NOX'): 53851
+  - ('SUROESTE2', 'O3'): 53851
+  - ('SUROESTE2', 'TOUT'): 53851
+  - ('SUROESTE2', 'NO2'): 53851
+  - ('SUROESTE2', 'CO'): 53851
+  - ('SUROESTE2', 'NO'): 53851
+  - ('SUROESTE2', 'WDR'): 53851
+  - ('SUROESTE2', 'PM10'): 53851
+  - ('SUROESTE2', 'PRS'): 53851
+  - ('SUROESTE2', 'SR'): 53851
+  - ('SUROESTE2', 'PM2.5'): 53851
+  - ('SUROESTE2', 'RAINF'): 53851
+  - ('NOROESTE3', 'WDR'): 53225
+  - ('SUR', 'F'): 35130
+  - ('SUROESTE2', 'WDV'): 27740
+  - ('SUR', 'WDV'): 27740
+  - ('CENTRO', 'WDV'): 27740
+  - ('NORTE2', 'WDV'): 27740
+  - ('CENTRO', 'CO'): 26998
+  - ('CENTRO', 'NO'): 26998
+  - ('CENTRO', 'O3'): 26998
+  - ('CENTRO', 'RH'): 26998
+  - ('CENTRO', 'TOUT'): 26998
+  - ('CENTRO', 'WSR'): 26998
+  - ('CENTRO', 'PRS'): 26998
+  - ('CENTRO', 'PM2.5'): 26998
+  - ('CENTRO', 'RAINF'): 26998
+  - ('CENTRO', 'PM10'): 26998
+  - ('CENTRO', 'SO2'): 26998
+  - ('CENTRO', 'SR'): 26998
+  - ('CENTRO', 'NOX'): 26998
+  - ('CENTRO', 'NO2'): 26998
+  - ('NOROESTE3', 'F'): 26349
+  - ('NORESTE3', 'F'): 26348
+  - ('SUROESTE2', 'F'): 17566
+  - ('NORTE2', 'F'): 17564
+  - ('CENTRO', 'WDR'): 13128
+  - ('CENTRO', 'F'): 8784
+
+Porcentaje valores NaN totales:
+  630681 (9.9%)

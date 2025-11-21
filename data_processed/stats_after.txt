@@ -1,0 +1,64 @@
+================================================================================
+STATS: AFTER
+================================================================================
+Total registros: 1,804,203
+Rango fechas: 2023-01-01 00:00:00  a  2025-06-30 23:00:00
+
+Resumen por parámetro:
+              count  unique    top    freq
+parametro                                 
+CO         372583.0  1808.0   0.65  2486.0
+NO2        377474.0  1037.0   6.70  2407.0
+O3         384135.0   921.0  16.00  9047.0
+PM10       389741.0  6443.0  43.00  6051.0
+PM2.5      280270.0  6911.0  10.00  7408.0
+
+Faltantes por parámetro:
+  - CO: 0 faltantes (0.0%)
+  - NO2: 0 faltantes (0.0%)
+  - O3: 0 faltantes (0.0%)
+  - PM10: 0 faltantes (0.0%)
+  - PM2.5: 0 faltantes (0.0%)
+
+Faltantes por estación:
+  - CENTRO: 0 faltantes (0.0%)
+  - NORESTE3: 0 faltantes (0.0%)
+  - NOROESTE3: 0 faltantes (0.0%)
+  - NORTE2: 0 faltantes (0.0%)
+  - SUR: 0 faltantes (0.0%)
+  - SUROESTE2: 0 faltantes (0.0%)
+
+Conteos por (estacion, parametro):
+  - ('SUR', 'PM10'): 105203
+  - ('SUR', 'NO2'): 105001
+  - ('SUR', 'O3'): 104164
+  - ('SUR', 'CO'): 96477
+  - ('SUR', 'PM2.5'): 91142
+  - ('NOROESTE3', 'PM10'): 77517
+  - ('NORESTE3', 'PM10'): 77071
+  - ('NORESTE3', 'O3'): 75350
+  - ('NOROESTE3', 'O3'): 75297
+  - ('NORESTE3', 'NO2'): 74453
+  - ('NOROESTE3', 'CO'): 72608
+  - ('NORESTE3', 'CO'): 72115
+  - ('NOROESTE3', 'NO2'): 66195
+  - ('NORTE2', 'NO2'): 52907
+  - ('SUROESTE2', 'NO2'): 52736
+  - ('NORTE2', 'CO'): 52524
+  - ('SUROESTE2', 'CO'): 52495
+  - ('NORTE2', 'PM10'): 52133
+  - ('SUROESTE2', 'O3'): 51844
+  - ('NORTE2', 'O3'): 51557
+  - ('SUROESTE2', 'PM10'): 51509
+  - ('NORTE2', 'PM2.5'): 49118
+  - ('SUROESTE2', 'PM2.5'): 45763
+  - ('NORESTE3', 'PM2.5'): 41777
+  - ('NOROESTE3', 'PM2.5'): 30212
+  - ('CENTRO', 'CO'): 26364
+  - ('CENTRO', 'PM10'): 26308
+  - ('CENTRO', 'NO2'): 26182
+  - ('CENTRO', 'O3'): 25923
+  - ('CENTRO', 'PM2.5'): 22258
+
+Porcentaje valores NaN totales:
+  0 (0.0%)
